@@ -1,0 +1,86 @@
+.col-sm.l{
+    background-color: rgb(13, 145, 233);
+    height: 100vh;
+    text-align: center;
+    font-family: sans-serif;
+}
+.col-sm.r{
+    background-color: rgb(243, 241, 240)
+}
+.smart{
+    position: relative;
+    top: 40%;
+    font-size: 42px;
+    color: white
+}
+.watch{
+    position: relative;
+    top: 40%;
+    font-size: 42px;
+
+}
+.d-flex.justify-content-center.outer1{
+    position: relative;
+    top: 7%;
+    left: 27%;
+    height: 350px;
+    width: 300px;
+    background-color: rgb(124, 118, 118);
+    border-radius: 30px;
+}
+.d-flex.justify-content-center.outer2{
+    position: relative;
+    top: 10%;
+    height: 283px;
+    width: 300px;
+    background-color: black;
+    border-radius: 30px;
+}
+.d-flex.justify-content-start.topStripe{
+    border-bottom: 100px solid rgb(124, 118, 118);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 150px;
+    position: relative;
+    top: 7%;
+    left: 38%;
+}
+.d-flex.justify-content-start.bottomStripe{
+    border-bottom: 100px solid rgb(124, 118, 118);
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    height: 0;
+    width: 150px;
+    position: relative;
+    top: 0%;
+    left: 38%;
+    transform: rotate(180deg);
+}
+#message{
+    position: relative;
+    top: 20%;
+    left: 35%;
+    border-radius: 30px;
+    border: none;
+}
+#music{
+    position: relative;
+    top: 20%;
+    left: 43%;
+    border-radius: 30px;
+    border: none;
+}
+#timer{
+    position: relative;
+    top: 20%;
+    left: 51%;
+    border-radius: 30px;
+    border: none;
+
+}
+.time{
+    position: relative;
+    left: 37%;
+    
+}
