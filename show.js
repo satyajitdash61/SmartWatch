@@ -1,5 +1,8 @@
 let currentdate=new Date();
+$(document).ready(function(){
+    document.getElementById("welcomeTime").innerHTML=currentdate.getHours()+":"+currentdate.getMinutes();
 
+})
 function message(){
     document.getElementById("message").style.backgroundColor="aqua";
     document.getElementById("music").style.backgroundColor="white";
