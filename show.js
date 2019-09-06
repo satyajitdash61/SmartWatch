@@ -19,7 +19,7 @@ function music(){
     document.getElementById("messagetitle").style.display="none";
     document.getElementById("musictitle").style.display="block";
     document.getElementById("timertitle").style.display="none";
-    document.getElementById("time").style.left="290%";
+    document.getElementById("time").style.left="300%";
     document.getElementById("musictitle").style.right = "10%";
     document.getElementById("welcomeTime").style.display="none";
 }
@@ -30,7 +30,9 @@ function timer(){
     document.getElementById("messagetitle").style.display="none";
     document.getElementById("musictitle").style.display="none";
     document.getElementById("timertitle").style.display="block";
-    document.getElementById("time").style.left="290%";
+    document.getElementById("time").style.left="300%";
     document.getElementById("musictitle").style.right = "10%";
     document.getElementById("welcomeTime").style.display="none";
+
+    
 }

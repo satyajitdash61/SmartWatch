@@ -119,3 +119,26 @@
     position: absolute;
     bottom: 0%;
 } */
+ #start{
+    position: absolute;
+    top:170%;
+    left: 130%;
+    font-size: 20px;
+    color: red; 
+    z-index: 1;
+} 
+.countdownAllign{
+    position: relative;
+    margin-top: 120%;
+    left: 120%;
+
+}
+#countdown{
+    color: white;
+    font-size: 20px;
+    /* position: relative; */
+    /* top: 50%; */
+}
+
+
+
