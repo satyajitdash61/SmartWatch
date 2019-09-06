@@ -61,21 +61,21 @@
 #message{
     position: relative;
     top: 20%;
-    left: 35%;
+    left: 34%;
     border-radius: 30px;
     border: none;
 }
 #music{
     position: relative;
     top: 20%;
-    left: 43%;
+    left: 40.5%;
     border-radius: 30px;
     border: none;
 }
 #timer{
     position: relative;
     top: 20%;
-    left: 51%;
+    left: 47%;
     border-radius: 30px;
     border: none;
 
@@ -98,7 +98,7 @@
     position: relative;
     margin-top: 80%;
     font-size: 50px;
-    left: 70%;
+    left: 75%;
 }
 #musictitle{
     position: relative;
@@ -113,7 +113,8 @@
 .spot{
     position: absolute;
     top: 150%;
-    left: -15%;
+    left: -26%;
+    
 }
 /* iframe{
     position: absolute;
@@ -126,6 +127,7 @@
     font-size: 20px;
     color: red; 
     z-index: 1;
+    cursor: pointer;
 } 
 .countdownAllign{
     position: relative;
@@ -139,6 +141,36 @@
     /* position: relative; */
     /* top: 50%; */
 }
+#messagebox1{
+    position: absolute;
+    top: 25%;
+    /* height: 27px; */
+    width: 90%;
+    border-radius: 5px;
+    background-color: white;
+    overflow-wrap: break-word;
+    display: none;
+}
 
+#messagebox2{
+    position: absolute;
+    top: 42%;
+    /* height: 27px; */
+    width: 90%;
+    border-radius: 5px;
+    background-color: white;
+    overflow-wrap: break-word;
+    display: none;
+}
+#messagebox3{
+    position: absolute;
+    top: 59%;
+    width: 90%;
+    /* height: 27px; */
+    border-radius: 5px;
+    background-color: white;
+    overflow-wrap: break-word;
+    display: none;
+}
 
 
