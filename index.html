@@ -21,16 +21,54 @@
                 <!-- watch top Stripe -->
                  <div class="d-flex justify-content-start topStripe"></div> 
                  <!-- watch outer side -->          
-                    <div class="d-flex justify-content-center outer1">
+                    <div class="row outer1">
                          <!-- watch inner side -->
-                         <div class="d-flex justify-content-center outer2">
-                            <p class="time"><span style="color: white">10:09</span></p>
+                         <div class="row outer2">
+                                     <!-- Welcome screen ends here -->
+                                    <div id="initialscreen">
+                                        <div class="col">
+                                            <div class="row">
+                                                <span class="welcometime" id="welcomeTime">10:09</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                     <!-- Welcome screen ends here -->
+                                    <!-- Message Screen starts here -->
+                         <div class="messagescreen">
+                             <div class="row">
+                                
+                                 <div class="col" id="messagetitle">
+                                     <span style="color: white">Messages</span>
+                                 </div>
+                                 <div class="col" id="time">
+                                    <span style="color: white">10:09</span>
+                                 </div>
+                             </div>
+                         </div>
+                         <!-- message screen ends here -->
+                         <!-- music screen starts here -->
+                            <div class="musicscreen">
+                                <div class="col" id="musictitle">
+                                    <span style="color: white">Music</span>
+                                    <div class="spot">
+                                        <iframe src="https://open.spotify.com/embed/album/1DFixLWuPkv3KT3TnV35m3" width="280" height="230" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
+                                    </div>
+                                </div> 
+                                
+                            </div>
+                         <!-- music screen ends here -->
+                         <!-- timer screen starts here -->
+                            <div class="timerscreen">
+                                <div class="col" id="timertitle">
+                                    <span style="color: white">Timer</span>
+                                </div>
+                            </div>
                          </div>
                     </div> 
                     <div class="row" style="margin-top: 15px;">
-                    <button id="message"><img src="message.png"></button>
-                    <button id="music"><img src="music.png"></button>
-                    <button id="timer"><img src="timer.png"></button>
+                    <button id="message" onclick="message()"><img src="message.png"></button>
+                    <button id="music"  onclick="music()"><img src="music.png"></button>
+                    <button id="timer" onclick="timer()"><img src="timer.png"></button>
                 </div>
                 <!-- watch bottom stripe -->
                     <div class="d-flex justify-content-start bottomStripe"></div>           
@@ -38,9 +76,16 @@
         </div>
     </div>
 
-</h1>
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+   
 </body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+<script src="show.js"></script>
+<script>
+    $('#message').on('click',function(){
+        $('#time').css('color','white');
+    })
+</script>
 </html>
