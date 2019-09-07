@@ -123,7 +123,7 @@
  #start{
     position: absolute;
     top:170%;
-    left: 90%;
+    left: 120%;
     font-size: 20px;
     color: red; 
     z-index: 1;
@@ -185,6 +185,14 @@
     left: 5%;
     display: none;
 }
-
-
+.sms{
+    border-radius: 10px;
+    height: 28vh;
+    overflow: auto;
+    display: block;
+}
+.smallRect{
+    border-radius: 10px;
+    background-color: gray;
+}
 

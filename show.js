@@ -4,9 +4,11 @@ $(document).ready(function(){
 
 })
 
-let arr=[{id:"1",from:"sasank", msg:"Hi, good morning"},
-        {id:"2",from:"saurav", msg:"Hi ,good evening"},
-        {id:"3",from:"puneet", msg:"Hi ,good afternoon"}
+let arr=[{name:"sasank", sms:"Hi, good morning"},
+        {from:"saurav", sms:"Hi ,good evening"},
+        {from:"puneet", sms:"Hi ,good afternoon"},
+        {from:"pop", sms:"Hi ,good evening"},
+        {from:"amazon", sms:"Hi ,good evening"},
         ];
         
         
@@ -24,6 +26,7 @@ function message(){
     document.getElementById("messagebox1").style.display="block";
     document.getElementById("messagebox2").style.display="block";
     document.getElementById("messagebox3").style.display="block";
+    document.getElementsByClassName("sms").style.display="block";
 
 
 }
@@ -42,6 +45,7 @@ function music(){
     document.getElementById("messagebox1").style.display="none";
     document.getElementById("messagebox2").style.display="none";
     document.getElementById("messagebox3").style.display="none";
+    document.getElementsByClassName("sms").style.display="none";
 
 
 }
@@ -58,6 +62,7 @@ function timer(){
     document.getElementById("messagebox1").style.display="none";
     document.getElementById("messagebox2").style.display="none";
     document.getElementById("messagebox3").style.display="none";
+    document.getElementsByClassName("sms").style.display="none";
 
 
     
