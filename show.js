@@ -3,7 +3,7 @@ $(document).ready(function(){
     document.getElementById("welcomeTime").innerHTML=currentdate.getHours()+":"+currentdate.getMinutes();
 
 })
-
+// array of messages
 let arr=[{name:"sasank", sms:"Hi, good morning"},
         {from:"saurav", sms:"Hi ,good evening"},
         {from:"puneet", sms:"Hi ,good afternoon"},
@@ -11,7 +11,8 @@ let arr=[{name:"sasank", sms:"Hi, good morning"},
         {from:"amazon", sms:"Hi ,good evening"},
         ];
         
-        
+    // onclick message  
+
 function message(){
     document.getElementById("message").style.backgroundColor="aqua";
     document.getElementById("music").style.backgroundColor="white";
@@ -30,6 +31,7 @@ function message(){
 
 
 }
+//onclick music
 
 function music(){
     document.getElementById("music").style.backgroundColor="aqua";
@@ -49,6 +51,9 @@ function music(){
 
 
 }
+
+//onclick timer
+
 function timer(){
     document.getElementById("music").style.backgroundColor="white";
     document.getElementById("message").style.backgroundColor="white";
@@ -67,7 +72,8 @@ function timer(){
 
     
 }
-  
+//   timer
+
 function start(){
     var deadline = new Date("Sep 7, 2019 23:59:59").getTime(); 
     var x = setInterval(function() { 
