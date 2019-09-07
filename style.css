@@ -113,7 +113,7 @@
 .spot{
     position: absolute;
     top: 150%;
-    left: -26%;
+    left: -39%;
     
 }
 /* iframe{
@@ -123,12 +123,21 @@
  #start{
     position: absolute;
     top:170%;
-    left: 130%;
+    left: 90%;
     font-size: 20px;
     color: red; 
     z-index: 1;
     cursor: pointer;
 } 
+#reset{
+    position: absolute;
+    top:170%;
+    left: 150%;
+    font-size: 20px;
+    color: red; 
+    z-index: 1;
+    cursor: pointer;
+}
 .countdownAllign{
     position: relative;
     margin-top: 120%;
@@ -141,6 +150,7 @@
     /* position: relative; */
     /* top: 50%; */
 }
+
 #messagebox1{
     position: absolute;
     top: 25%;
@@ -149,6 +159,7 @@
     border-radius: 5px;
     background-color: white;
     overflow-wrap: break-word;
+    left: 5%;
     display: none;
 }
 
@@ -160,6 +171,7 @@
     border-radius: 5px;
     background-color: white;
     overflow-wrap: break-word;
+    left: 5%;
     display: none;
 }
 #messagebox3{
@@ -170,7 +182,9 @@
     border-radius: 5px;
     background-color: white;
     overflow-wrap: break-word;
+    left: 5%;
     display: none;
 }
+
 
 

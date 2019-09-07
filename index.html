@@ -1,3 +1,7 @@
+<!-- Smart Watch
+
+where a user can see the message,pay music and user timer -->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -45,22 +49,23 @@
                                  </div>
 
                              </div>
-
+                            <div class="row" id = "messagediv">
                              <div class="row">
-                                 <div id="messagebox1" class="messagebox1" onclick="msg1">
-                                     <p>FK-101010</p>
+                                 <div id="messagebox1" class="messagebox1">
+                                     <p id="sasank" onclick="sasank()" >sasank</p>
                                  </div>
                                 </div>
                                 <div class="row">
-                                 <div id="messagebox2" class="messagebox2" onclick="msg2">
-                                        <p>Amazon-456789</p>
+                                 <div id="messagebox2" class="messagebox2">
+                                        <p id="saurav">saurav</p>
                                     </div>
                              </div>
                              <div class="row">
-                                    <div id="messagebox3" class="messagebox3" onclick="msg3">
-                                           <p>Nykaa-14447258</p>
+                                    <div id="messagebox3" class="messagebox3">
+                                           <p id="puneet">puneet</p>
                                        </div>
                                 </div>
+                            </div>
                          </div>
                          <!-- message screen ends here -->
                          <!-- music screen starts here -->
@@ -83,6 +88,7 @@
                                     </div>
 
                                     <i id="start" onclick="start()" class="fa fa-play"></i>
+                                    <i id="reset" onclick="stop()" class="fa fa-redo"></i>
                                     
                             </div>
                             </div>
